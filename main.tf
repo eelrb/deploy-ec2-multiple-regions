@@ -2,7 +2,7 @@
 // Modules
 module "ec2-1" {
   source  = "app.terraform.io/bleehashiorg/ec2/aws"
-  version = "0.0.2"
+  version = "0.0.3"
 
   aws_region = var.aws_region_1
   
@@ -14,7 +14,7 @@ module "ec2-1" {
 
 module "ec2-2" {
   source  = "app.terraform.io/bleehashiorg/ec2/aws"
-  version = "0.0.2"
+  version = "0.0.3"
 
   aws_region = var.aws_region_2
   
