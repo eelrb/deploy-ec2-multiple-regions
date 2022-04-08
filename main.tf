@@ -2,6 +2,10 @@ provider "aws" {
   region = var.aws_region_1 
 }
 
+provider "aws" {
+   alias  = "region_2"
+   region = var.aws_region_2
+ }
 
 
 
